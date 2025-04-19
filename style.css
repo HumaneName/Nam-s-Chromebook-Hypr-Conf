@@ -1,0 +1,38 @@
+/* WOFI */
+
+* {
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
+}
+
+/* Window */
+window {
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #102336; /* Dark background */
+}
+
+/* Input */
+#input {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    color: #f0f0f0; /* White text */
+    background-color: #1a3b5a; /* Slightly lighter dark background */
+    border-radius: 5px;
+}
+
+/* Text */
+#text {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    color: #f0f0f0; /* White text */
+}
+
+/* Selected Entry */
+#entry:selected {
+    background-color: #2d5s89; /* Highlight color for selected entry */
+    border-radius: 5px;
+}   1
