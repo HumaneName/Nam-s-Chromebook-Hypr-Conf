@@ -11,8 +11,9 @@ Requirements:
   swww
   PyWal
   Matugen
+  flatpak
 
-yay -S --needed alacritty hyprland wlogout nautilus hyprshot hyprpanel swww pywal matugen && flatpak install app.zen_browser.zen
+yay -S --needed alacritty flatpak hyprland wlogout nautilus hyprshot hyprpanel swww pywal matugen && flatpak install app.zen_browser.zen
 
 Keybinds:
 Super + A; Alacritty (terminal)
