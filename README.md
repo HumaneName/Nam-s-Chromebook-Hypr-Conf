@@ -31,7 +31,7 @@ yay -S --needed alacritty flatpak hyprland wlogout nautilus hyprshot hyprpanel s
 
 Replace current config with Nam's Chromebook Config
 ```
-curl -o hyprland.conf https://github.com/HumaneName/Nam-s-Chromebook-Hypr-Conf/blob/main/hyprland.conf
+curl -o hyprland.conf https://raw.githubusercontent.com/HumaneName/Nam-s-Chromebook-Hypr-Conf
 mv hyprland.conf ~/.config/hypr/hyprland.conf
 ```
 
