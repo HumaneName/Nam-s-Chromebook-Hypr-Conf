@@ -38,15 +38,15 @@ mv hyprland.conf ~/.config/hypr/hyprland.conf
 # Post Installation
 
 ## Keybinds:
-Super + A; Alacritty (terminal)
-Super + Q; close active window
-Super + M; wlogout
-Super + E; File Manager
-Super + D; Browser
-Super + V; toggle floating window
-Super + Space; app launcher
-Super + Shift + S; screenshot square region
-Super + Shift + W; screenshot window
-Super + Shift + X; screenshot whole screen
-Super + F; fullscreen active
-Super + S; Special Workspace
+> Super + A; Alacritty (terminal)
+> Super + Q; close active window
+> Super + M; wlogout
+> Super + E; File Manager
+> Super + D; Browser
+> Super + V; toggle floating window
+> Super + Space; app launcher
+> Super + Shift + S; screenshot square region
+> Super + Shift + W; screenshot window
+> Super + Shift + X; screenshot whole screen
+> Super + F; fullscreen active
+> Super + S; Special Workspace
