@@ -1,0 +1,102 @@
+{
+  "theme.font.name": "System-ui",
+  "theme.font.label": "System-ui",
+  "menus.transition": "crossfade",
+  "theme.bar.menus.enableShadow": true,
+  "theme.bar.scaling": 75,
+  "theme.notification.scaling": 70,
+  "scalingPriority": "both",
+  "theme.bar.menus.menu.dashboard.scaling": 70,
+  "menus.dashboard.powermenu.avatar.name": "Nam",
+  "theme.bar.menus.menu.dashboard.profile.size": "7em",
+  "theme.bar.menus.menu.dashboard.profile.radius": "0.2em",
+  "bar.customModules.ram.label": true,
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "flatpak run app.zen_browser.zen",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Browser",
+  "menus.dashboard.shortcuts.enabled": true,
+  "menus.clock.weather.location": "Johnston Iowa",
+  "theme.bar.floating": true,
+  "bar.autoHide": "fullscreen",
+  "theme.bar.enableShadow": false,
+  "theme.bar.border.location": "none",
+  "theme.bar.location": "top",
+  "theme.matugen": true,
+  "wallpaper.pywal": true,
+  "wallpaper.image": "/home/nam/Pictures/Wallpapers/Neon_Fluted_Glass.jpg",
+  "theme.bar.transparent": true,
+  "theme.matugen_settings.scheme_type": "tonal-spot",
+  "theme.matugen_settings.mode": "dark",
+  "theme.matugen_settings.variation": "monochrome_2",
+  "theme.matugen_settings.contrast": 0,
+  "theme.bar.opacity": 85,
+  "theme.bar.buttons.background_opacity": 85,
+  "theme.notification.enableShadow": true,
+  "notifications.displayedTotal": 3,
+  "theme.bar.menus.menu.notifications.height": "22em",
+  "notifications.autoDismiss": true,
+  "menus.clock.time.hideSeconds": true,
+  "theme.font.weight": 500,
+  "menus.media.displayTimeTooltip": false,
+  "theme.bar.buttons.windowtitle.enableBorder": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "network",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "tear": true,
+  "bar.network.label": false,
+  "bar.clock.format": " %I:%M %p",
+  "bar.media.show_active_only": true,
+  "bar.workspaces.show_icons": false,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "menus.dashboard.powermenu.logout": "wlogout",
+  "theme.bar.menus.menu.clock.scaling": 75,
+  "menus.clock.weather.enabled": false,
+  "bar.customModules.netstat.dynamicIcon": false,
+  "bar.customModules.netstat.labelType": "full"
+}
