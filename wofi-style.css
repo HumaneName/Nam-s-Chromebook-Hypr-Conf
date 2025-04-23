@@ -1,5 +1,7 @@
 /* WOFI */
 
+@import ".cache/wal/colors-waybar.css";
+
 * {
     font-family: 'JetBrains Mono';
     font-size: 14px;
@@ -10,7 +12,7 @@ window {
     margin: 0px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #102336; /* Dark background */
+    background-color: @background;
 }
 
 /* Input */
@@ -18,8 +20,8 @@ window {
     margin: 5px;
     padding: 10px;
     border: none;
-    color: #f0f0f0; /* White text */
-    background-color: #1a3b5a; /* Slightly lighter dark background */
+    color: @color7; /* White text */
+    background-color: @background;
     border-radius: 5px;
 }
 
@@ -28,11 +30,11 @@ window {
     margin: 5px;
     padding: 10px;
     border: none;
-    color: #f0f0f0; /* White text */
+    color: @color7;
 }
 
 /* Selected Entry */
 #entry:selected {
-    background-color: #2d5s89; /* Highlight color for selected entry */
+    background-color: @color1;
     border-radius: 5px;
-}   1
+}   
