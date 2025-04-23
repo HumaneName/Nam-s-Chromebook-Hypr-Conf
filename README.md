@@ -1,15 +1,18 @@
 # Nam-s-Chromebook-Hypr-Conf
 
 Requirements:
+  Hyprland
   Alacritty
   wlogout
   nautilus
   hyprshot
   HyprPanel
   yay (AUR Helper)
-  SWWW
+  swww
   PyWal
   Matugen
+
+yay -S --needed alacritty hyprland wlogout nautilus hyprshot hyprpanel swww pywal matugen && flatpak install app.zen_browser.zen
 
 Keybinds:
 Super + A; Alacritty (terminal)
