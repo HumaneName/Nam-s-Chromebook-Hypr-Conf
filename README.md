@@ -5,8 +5,11 @@ Requirements:
   wlogout
   nautilus
   hyprshot
-  waybar
-  firefox/qutebrowser
+  HyprPanel
+  yay (AUR Helper)
+  SWWW
+  PyWal
+  Matugen
 
 Keybinds:
 Super + A; Alacritty (terminal)
@@ -19,3 +22,4 @@ Super + Shift + S; screenshot square region
 Super + Shift + W; screenshot window
 Super + Shift + X; screenshot whole screen
 Super + F; fullscreen active
+Super + S; Special Workspace
