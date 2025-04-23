@@ -1,5 +1,5 @@
 # Nam-s-Chromebook-Hypr-Conf
-### This config is based on Arch Linux!
+### This config is based on Arch Linux and Hyprland!
 
 ## Requirements:
   Hyprland,
