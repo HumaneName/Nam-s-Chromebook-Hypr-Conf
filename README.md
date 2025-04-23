@@ -1,6 +1,7 @@
 # Nam-s-Chromebook-Hypr-Conf
+### This config is based on Arch Linux!
 
-Requirements:
+## Requirements:
   Hyprland
   Alacritty
   wlogout
@@ -13,9 +14,9 @@ Requirements:
   Matugen
   flatpak
 
-yay -S --needed alacritty flatpak hyprland wlogout nautilus hyprshot hyprpanel swww pywal matugen && flatpak install app.zen_browser.zen
+```yay -S --needed alacritty flatpak hyprland wlogout nautilus hyprshot hyprpanel swww pywal matugen && flatpak install app.zen_browser.zen```
 
-Keybinds:
+## Keybinds:
 Super + A; Alacritty (terminal)
 Super + Q; close active window
 Super + M; wlogout
