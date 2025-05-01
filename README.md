@@ -31,8 +31,18 @@ yay -S --needed alacritty flatpak hyprland wlogout nautilus hyprshot hyprpanel s
 
 Replace current config with Nam's Chromebook Config
 ```
-curl -o hyprland.conf https://raw.githubusercontent.com/HumaneName/Nam-s-Chromebook-Hypr-Conf
-mv hyprland.conf ~/.config/hypr/hyprland.conf
+bash -c '
+  DEST="$HOME/.config/hypr"
+  mkdir -p "$DEST"
+  curl -fsSL https://github.com/HumaneName/Nam-s-Chromebook-Hypr-Conf/archive/refs/heads/main.tar.gz \
+    | tar -xz \
+        --strip-components=1 \
+        --exclude="Nam-s-Chromebook-Hypr-Conf-main/waybar*" \
+        --exclude="Nam-s-Chromebook-Hypr-Conf-main/wofi*" \
+        -C "$DEST"
+  echo "Done: all files except waybar/ and wofi/ are now in $DEST"
+'
+
 ```
 
 # Post Installation
